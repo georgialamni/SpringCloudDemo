@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="config-server" />
+        <module name="room-reservation-service" />
         <module name="reservation-services" />
         <module name="room-services" />
         <module name="spring-cloud" />
@@ -19,6 +20,7 @@
       <module name="eureka-server" target="11" />
       <module name="guest-services" target="11" />
       <module name="reservation-services" target="11" />
+      <module name="room-reservation-service" target="11" />
       <module name="room-services" target="11" />
       <module name="spring-cloud" target="11" />
     </bytecodeTargetLevel>
@@ -29,6 +31,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="guest-services" options="-parameters" />
       <module name="reservation-services" options="-parameters" />
+      <module name="room-reservation-service" options="-parameters" />
       <module name="room-services" options="-parameters" />
     </option>
   </component>
